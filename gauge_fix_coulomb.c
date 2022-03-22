@@ -20,7 +20,7 @@
 int main(){
 
 	// #pragma omp parallel for num_threads(2)
-		for (int config = 1; config <= 100; config++ ) {
+		for (int config = 1; config <= 10; config++ ) {
 			
 			double complex * U = (double complex *) malloc(Volume * d * 3 * 3 * sizeof(double complex));
 
